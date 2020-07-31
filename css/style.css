@@ -207,6 +207,46 @@ h1::after
     margin-bottom: 20px;
 }
 
+/*--------eBOOK---------*/
+
+#eBook
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #00346D;
+    color: #efefef!important;
+    
+}
+
+#eBook h1
+{
+    color:  #efefef !important;
+  
+}
+
+#eBook .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+
+
+.eBook-content
+{
+    padding-top: 5px;
+    
+}
+
+.titlepage img
+{
+    height:250px;
+    padding-left: 200px;
+}
+
+
+
 
 /*--------Get in Touch---------*/
 #contact
