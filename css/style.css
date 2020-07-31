@@ -86,6 +86,20 @@
     margin-top: 20px;
     margin-bottom: 30px;
     background-color: white;
+    border: 2px solid #007bff;
+}
+
+#about .btn:hover {
+  background-color: #007bff;
+  cursor: pointer;
+  color: #ffffff !important;
+  transition:0.5s ease;
+}
+
+#about .resume:hover {
+  cursor: pointer;
+  color: #ffffff !important;
+  transition:0.5s ease;
 }
 
 .about-content
