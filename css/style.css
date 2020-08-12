@@ -58,6 +58,10 @@
     width:100%;
 }
 
+.carousel-item
+{
+    height:600px;
+}
 .carousel-caption
 {
     top:50%;
