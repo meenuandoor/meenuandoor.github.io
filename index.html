@@ -3,10 +3,13 @@
 <head>
 <title>Meenakshi Andoorveedu</title>
  <link rel="shortcut icon" type="image/x-icon" href="output-onlinepngtools.png" />
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 <link rel="stylesheet" href=https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     
@@ -111,6 +114,7 @@ I’m a Management Engineering student at the University of Waterloo with a stro
 <h4>Explore My Profiles</h4>
 <br>
 <br>
+<br>
 <div class="row">
   <div class="col-sm-6">
     <div class="card">
@@ -135,7 +139,32 @@ I’m a Management Engineering student at the University of Waterloo with a stro
     
     
 </div>
-</div>      
+</div>  
+    
+    <!----JS. Ambassadors---->
+<script>
+    $(document).ready(function(){
+      $('.col-sm-6').hover(
+          //trigger when mouse hovers
+        function(){
+            $(this).animate({
+                marginTop: "-=1%",
+            },200);   
+        },
+          
+          //trigger when hovers out
+        function(){
+            $(this).animate({
+                marginTop: "0%",
+            },200);   
+        }
+           
+      );
+        
+    });
+    
+</script>
+    
 </section>
 
   
@@ -172,8 +201,10 @@ I’m a Management Engineering student at the University of Waterloo with a stro
                     <div class="icon">
                     <i class="fa fa-tasks"></i>
                     </div>
-                    <h3>Team Organizer</h3>
-                    <p>Outreached to sponsors to help drive the understanding of data analytics and optimization to high school students</p>
+                    <!--<h3>Team Organizer</h3>
+                    <p>Outreached to sponsors to help drive the understanding of data analytics and optimization to high school students</p>-->
+                    <h3>Team Leader</h3>
+                    <p>Innovated a 10-year multi-phase strategy to solve the sustainability issues with COVID-19 recovery </p>
                 </div>
             </div>
         </div>
