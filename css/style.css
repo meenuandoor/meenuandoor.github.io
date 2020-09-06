@@ -102,11 +102,29 @@
   transition:0.5s ease;
 }
 
+
 #about .resume:hover {
   cursor: pointer;
   color: #ffffff !important;
   transition:0.5s ease;
 }
+
+#about .Amb
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #ffffff !important;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+}
+
+#about .Ambassador
+{
+  cursor: pointer;
+  color: #ffffff !important;
+  transition:0.5s ease;
+}
+
 
 .about-content
 {
@@ -183,7 +201,7 @@
     transition:0.7s ease;
 }
 
-/*--------Professional Skills---------*/
+/*--------Skills---------*/
 #skills
 {
     padding-top: 50px;
@@ -268,7 +286,7 @@ h1::after
 
 
 
-/*--------Get in Touch---------*/
+/*--------Get in Touch------*/
 #contact
 {
     background-color: #efefef;
@@ -308,8 +326,3 @@ h1::after
     color: #007bff;
     font-weight: bold;
 }
-
-
-
-
-
