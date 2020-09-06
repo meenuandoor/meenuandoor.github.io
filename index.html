@@ -34,6 +34,9 @@
         <a class="nav-link" href="#experiences">EXPERIENCES</a>
       </li>
         <li class="nav-item">
+        <a class="nav-link" href="#projects">PROJECTS</a>
+      </li> 
+        <li class="nav-item">
         <a class="nav-link" href="#skills">SKILLS</a>
       </li>
         <li class="nav-item">
@@ -209,6 +212,86 @@ I’m a Management Engineering student at the University of Waterloo with a stro
             </div>
         </div>
     </section>
+    
+    <!----Projects------>
+    
+<section id="projects">
+    <div class="container">
+    <h1>My Projects</h1>
+    <br>
+    <div class="row">
+        <div class="col-4-lg">
+            <!---Bootstrap Card-->
+            <div class = "card" style ="width: 18rem;">
+                
+                    <img src="statistic-1606951_1280.png" alt="Card One" class="card-img-top">
+                
+                
+                <div class="card-body">
+                    <h5 class="card-title">Website</h5>
+                    <p class="card-text">My personal website that features projects, skills and experiences.
+                    </p>
+                    <a href="https://github.com/meenuandoor/meenuandoor.github.io" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-4-lg ml-3">
+            <div class="card" style="width: 18rem;">
+            
+                <img src="calendar-1763587_1280.png" alt="Card Two" class="card-img-top">
+                
+                <div class="card-body">
+                    <h5 class="card-title">Decision Support Tool</h5>
+                    <p class="card-text">Role Assignment, Meeting Planner, Notice Board and To-Do List.
+                    </p>
+                    <a href="Milestone%204%20-%20Finished%20Decision%20Support%20System%20-%20Team%2014.xlsm" class="btn btn-primary">View Project</a>
+            </div>   
+        </div>
+    </div>
+        
+        <div class="col-4-lg ml-3">
+            <div class="card" style="width: 18rem;">
+                <div clas="proj_image">
+                    <img src="gui-2311261_1280.png" alt="Card Three" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">LRT Database</h5>
+                    <p class="card-text">Raw data of LRT Waterloo's passenger wait time at platforms.
+                    </p>
+                    <a href="Ion%20Data%20Summary%20-%20Pivot.xlsm" class="btn btn-primary">View Project</a>
+            </div>   
+        </div>
+        </div>
+        
+    
+    </div>  
+ </div> 
+    
+        <!----JS. Projects---->
+<script>
+    $(document).ready(function(){
+      $('.col-4-lg').hover(
+          //trigger when mouse hovers
+        function(){
+            $(this).animate({
+                marginTop: "-=1%",
+            },200);   
+        },
+          
+          //trigger when hovers out
+        function(){
+            $(this).animate({
+                marginTop: "0%",
+            },200);   
+        }
+           
+      );
+        
+    });
+    
+</script>
+</section>
    
     <!----Skills---->
     <section id="skills">
@@ -277,6 +360,7 @@ I’m a Management Engineering student at the University of Waterloo with a stro
     </div>
     </section>
     
+
     <!----eBook---->
 <section id="eBook">
 <div class="container">
@@ -304,6 +388,7 @@ Designed cover-to-cover, I crafted an eBook during my Internship at Wellow (prev
 </section>
     
     <!----Get in Touch------>
+    
 <section id="contact">
 <div class="container">
     <h1>Get in Touch</h1>

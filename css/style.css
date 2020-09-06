@@ -54,7 +54,7 @@
     font-size: 16px;
 }
 
-/*--------Slider---------*/
+/*--------Carousel---------*/
 #slider
 {
     width:100%;
@@ -62,7 +62,7 @@
 
 .carousel-item
 {
-    height:600px;
+    height:95vh;
 }
 .carousel-caption
 {
@@ -117,7 +117,7 @@
 
 .profilepic img
 {
-    height:400px;
+    height:70vh;
     padding-left: 130px;
 }
 
@@ -206,6 +206,17 @@
     transition:0.7s ease;
 }
 
+/*--------projects------*/
+#projects
+{
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+
+
+
 /*--------Skills---------*/
 #skills
 {
@@ -249,6 +260,9 @@ h1::after
     border-radius: 16px!important;
     margin-bottom: 20px;
 }
+
+
+
 
 /*--------eBOOK---------*/
 
